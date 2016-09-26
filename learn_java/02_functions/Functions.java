@@ -1,23 +1,29 @@
 
 public class Functions {
     public static String hello() {
-        return null;
+        return "hello";
     }
 
     public static int add(int x, int y) {
-        return 0;
+        return x + y;
     }
 
     public static double ftoc(double f) {
-        return 0;
+        return (f-32.0) * (5.0 / 9.0);
     }
 
     public static String[] makeArray(String s1, String s2, String s3) {
-        return null;
+        String[] string = {s1, s2, s3};
+        return string;
     }
 
     public static int sum(int[] numbers) {
-        return 0;
+        int sum = 0;
+        for(int i = 0; i < numbers.length; i++)
+        {
+            sum += numbers[i];
+        }
+        return sum;
     }
 
 }
