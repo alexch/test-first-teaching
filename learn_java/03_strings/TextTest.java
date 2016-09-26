@@ -37,6 +37,8 @@ public class TextTest extends TestCase
         assertEquals(7, text.countLetters('a', textRomeo));
         assertEquals(16, text.countLetters('e', textRomeo));
         assertEquals(0, text.countLetters('z', textRomeo));
+        assertEquals(1, text.countLetters('A', textRichardIII));
+
     }
 
     public void testHistogram() throws Exception
