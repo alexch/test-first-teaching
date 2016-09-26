@@ -1,6 +1,9 @@
 
 import java.util.*;
 import java.io.IOException;
+interface StockRepository {
+
+}
 
 public class MemoryStockRepository implements StockRepository
 {

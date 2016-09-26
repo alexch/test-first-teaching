@@ -1,17 +1,19 @@
 import junit.framework.TestCase;
+import org.junit.Assert.*;
 
 public class IntroTest extends TestCase
 {
+    Intro intro = new Intro();
+
     public void testHello()
     {
-        Intro x = new Intro();
-        assertEquals("Hello", x.sayHello());
+        assertNotSame("HelloHaja", intro.sayHello());
     }
 
     public void testGoodbye()
     {
-        Intro x = new Intro();
-        assertEquals("Goodbye", x.sayGoodbye());
+
+        assertEquals("Goodbye", intro.sayGoodbye());
     }
 
 }

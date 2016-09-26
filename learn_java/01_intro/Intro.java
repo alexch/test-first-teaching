@@ -7,7 +7,7 @@ public class Intro
 
     public String sayGoodbye()
     {
-        return "Farewell";
+        return "Goodbye";
     }
 }
 
