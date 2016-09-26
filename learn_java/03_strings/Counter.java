@@ -53,7 +53,7 @@ public class Counter
         int stringLength = s.length();
         int phraseCount = (stringLength > 0)?1:0;
 
-        for(int index = 0; index < s.length(); index++)
+        for(int index = 0; index < stringLength; index++)
         {
             for(int scindex = 0; scindex < specialcharacters.length; scindex++) {
                 if (characters[index] == specialcharacters[scindex])
