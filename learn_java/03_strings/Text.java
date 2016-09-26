@@ -1,8 +1,11 @@
 
 import java.util.*;
 
-public class Counter
+public class Text
 {
+    public String inPigLatin(String s) {
+        return null;
+    }
 
     public int countLetters(char ch, String s)
     {
@@ -94,3 +97,4 @@ public class Counter
         return map;
     }
 }
+
